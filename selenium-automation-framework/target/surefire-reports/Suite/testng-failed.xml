@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.homework13may2020.test.LoginTest">
+        <methods>
+          <include name="verifyLoginTest"/>
+        </methods>
+      </class> <!-- com.homework13may2020.test.LoginTest -->
+      <class name="com.homework13may2020.test.AddEmployeeTest">
+        <methods>
+          <include name="addEmployeeTest"/>
+        </methods>
+      </class> <!-- com.homework13may2020.test.AddEmployeeTest -->
+      <class name="com.homework13may2020.test.DashBoardTest">
+        <methods>
+          <include name="verifyDashboardTest"/>
+        </methods>
+      </class> <!-- com.homework13may2020.test.DashBoardTest -->
+      <class name="com.homework13may2020.test.PIMTest">
+        <methods>
+          <include name="addEmployeePIM"/>
+        </methods>
+      </class> <!-- com.homework13may2020.test.PIMTest -->
+      <class name="com.homework13may2020.test.AddUserTest">
+        <methods>
+          <include name="addUserNegativeTest"/>
+          <include name="addUserTest"/>
+        </methods>
+      </class> <!-- com.homework13may2020.test.AddUserTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
